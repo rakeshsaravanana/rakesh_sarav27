@@ -1,0 +1,140 @@
+/* background colors */
+:root{
+    --white:#ffffff;
+    --grey:#ffffff66;
+    --yellowgreen:#cccc33;
+    --black:#000000;
+}
+/* text colors */
+:root{
+    --white:#ffffff;
+    --yellowgreen:#cccc33;
+    --red:#e0284c;
+    --black:#000000;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+  
+    font-family:Bwnistagrot bd,sans-serif;
+}
+.contact-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    min-height: 60vh;
+    margin: 5rem auto;
+        
+}
+/* .page{
+ 
+    border: 1px solid var(--black);
+    padding: 5rem 7rem;
+    border-radius: 100%;
+    background-color: var(--yellowgreen);
+    box-shadow: 15px 10px 15px var(--black);
+    filter:drop-shadow(0.1rem 0.1rem var(--black))
+    
+}   */
+
+.page
+{
+    /* background-color: var(--yellowgreen); */
+    padding: 5rem 8rem;
+    border-radius:20% 10% 20% 10%;
+    border: 3px solid var(--black);
+    background-color: bisque;
+    box-shadow: 15px 10px 15px var(--black);
+}
+.form{
+    padding: 1rem;
+} 
+.names,.email,.textarea{
+    display: block;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    color: var(--red);
+    text-align: center;
+    border: 2px solid var(--red);
+    background-color: transparent;
+    border-radius: 10px;
+    width: 100%;
+    
+}
+.textarea{
+    resize: none;
+   
+}
+.form-btn{
+   padding:0.5rem 4rem;
+   background: transparent;
+   border: 2px solid var(--red);
+   cursor: pointer;
+   border-radius: 10px;
+   font-weight: 600;
+}
+.form-btn:hover{
+    color: var(--white);
+    background-color:var(--red);
+    transform: translateY(10px);
+    transition: 0.8s;
+}
+.linkedin{
+    text-decoration: none;
+    text-align: center;
+    color: navy;
+}
+.linkedin-icon{
+    font-size: 2rem;
+    margin-top: 1.5rem;
+    margin-right: 1.5rem;
+    display: block;
+
+}
+
+@media all and (max-width:1026px){
+    .contact-container{
+        margin: 2rem auto;
+    }
+}
+@media all and (max-width:914px){
+    .contact-container{
+        margin: 1rem auto;
+    }
+}
+
+@media all and (max-width:822px){
+    .contact-container{
+        margin: 2.5rem auto;
+    }
+}
+
+@media all and (max-width:770px){
+    .contact-container{
+        margin: 2.5rem auto;
+    }
+}
+
+@media all and (max-width:435px){
+    .page{
+        border-radius: 15%;
+        padding:4.8rem;
+        margin-left: -0.5rem;
+    }
+    .form{
+        padding: 1.5rem;
+    }
+}
+@media all and (max-width:392px){
+    
+    .page{
+        margin: 0 2rem;
+        padding:2 0.5rem;
+    }
+}

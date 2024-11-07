@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/aakashportfolio/static/css/main.939a0da2.css",
+    "main.js": "/aakashportfolio/static/js/main.c1223aa6.js",
+    "static/media/sample.png": "/aakashportfolio/static/media/sample.ff829795bec0d6e4c3bd.png",
+    "static/media/rakesh.resume.pdf": "/aakashportfolio/static/media/rakesh.resume.a0e94c63e0acf4c52bb8.pdf",
+    "static/media/rakeshportfolio.png": "/aakashportfolio/static/media/rakeshportfolio.b42c8f95e2d2c84292b0.png",
+    "static/media/nodejs.png": "/aakashportfolio/static/media/nodejs.d980d9636ace07ad3dde.png",
+    "static/media/react.png": "/aakashportfolio/static/media/react.06f94023e891cdfaa3ef.png",
+    "static/media/css.png": "/aakashportfolio/static/media/css.bee63b9e863f48d93bda.png",
+    "static/media/javascript.png": "/aakashportfolio/static/media/javascript.57f1722aa0d5af76c735.png",
+    "static/media/mysql.png": "/aakashportfolio/static/media/mysql.17ec01314179e9a8ab58.png",
+    "index.html": "/aakashportfolio/index.html",
+    "main.939a0da2.css.map": "/aakashportfolio/static/css/main.939a0da2.css.map",
+    "main.c1223aa6.js.map": "/aakashportfolio/static/js/main.c1223aa6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.939a0da2.css",
+    "static/js/main.c1223aa6.js"
+  ]
+}

@@ -1,0 +1,149 @@
+/* background colors */
+:root{
+    --white:#ffffff;
+    --grey:#ffffff66;
+    --yellowgreen:#cccc33;
+    --black:#000000;
+}
+/* text colors */
+:root{
+    --white:#ffffff;
+    --yellowgreen:#cccc33;
+    --red:#e0284c;
+    --black:#000000;
+}
+body{
+  
+    font-family:Bwnistagrot bd,sans-serif;
+}
+.container{
+    display:flex;
+    justify-content: center;
+    gap:1rem;
+    background-color: var(--black);
+    color: var(--white);
+   
+}
+
+.home-contents{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:0.5rem;
+}
+.contents{
+    padding-bottom: 0.5rem;
+} 
+.pipe{
+    color: var(--yellowgreen);
+    width: 1rem;
+}
+.name,.designation,.pipe,.quotes{
+    line-height: 150%;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+/* HTML: <div class="loader"></div> */
+.loader {
+    width: 60px;
+    aspect-ratio: 4;
+    background: radial-gradient(circle closest-side) 0/calc(100%/3) 100% space;
+    clip-path: inset(0 100% 0 0);
+    animation: l1 1.5s steps(4) infinite;
+  }
+  @keyframes l1 {to{clip-path: inset(0 -34% 0 0)}}
+
+
+
+
+
+.quotes{
+    color: var(--yellowgreen);
+}
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+@media all and (max-width:807px){
+    .home-contents{
+        position: absolute;
+        left: auto;
+        bottom: 40%;
+    }
+    /* Making changes in about page */
+   
+}
+
+/* for ipad mini */
+
+@media all and (max-width:722px){
+    .home-contents{
+        bottom: 40%;
+    }
+}
+@media all and (max-width:722px){
+    .home-contents{
+        bottom: 15%;
+    }
+}
+
+@media all and (max-width:580px){
+    html,body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+    .home-contents{
+        bottom: 40%;
+    }
+    
+}
+
+@media all and (max-width:435px){
+    html,body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+    .imgdiv{
+        margin-top: 5rem;
+    }
+
+    .container{
+        height: fit-content;
+    }
+    .home-contents{
+        font-size: 1rem;
+        bottom: 40%;
+    }
+   
+   
+   
+
+}
+@media all and (max-width:380px){
+    .home-contents{
+        bottom: 20%;
+    }
+    .name{
+        font-size: 1.5rem;
+    }
+}
+@media all and (max-width:282px){
+    .home-contents{
+        bottom: 10%;
+    }
+    
+}
+

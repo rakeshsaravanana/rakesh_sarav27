@@ -1,0 +1,113 @@
+/* background colors */
+:root{
+    --white:#ffffff;
+    --grey:#ffffff66;
+    --yellowgreen:#cccc33;
+    --black:#000000;
+}
+/* text colors */
+:root{
+    --white:#ffffff;
+    --yellowgreen:#cccc33;
+    --red:#e0284c;
+    --black:#000000;
+}
+body{
+  
+    font-family:Bwnistagrot bd,sans-serif;
+}
+.work-container{
+    min-width: 100vw;
+    margin: 4rem 0;
+    
+}
+.work{
+    margin-left: 1rem;
+    color: #000000;
+}
+           
+.head{
+    padding: 1rem;
+    font-weight: 750;
+    letter-spacing: 2px;
+}
+.workdetails{
+    padding: 1rem 2rem;
+}
+.companyname{
+    letter-spacing: 0.11rem;
+    color: var(--red);
+}
+.pipe2{
+    color:var(--yellowgreen);
+    width: 1rem;
+}
+.workpoints{
+    
+    padding:1rem 2rem;
+    line-height: 200%;
+    letter-spacing: 1px;
+}
+.points{
+    z-index: -10;
+}
+.myskills{
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+    justify-content:center;
+    /* padding-top: 2rem;
+    padding-bottom: 4rem; */
+    flex-wrap: wrap;
+    flex-grow: 1;
+   
+}
+        
+.skill-logos{
+    width: 70px;
+    height: 70px;
+    z-index: -10;
+}
+
+
+
+@media all and (max-width:435px){
+    .points{
+        font-size: 1rem;
+    }
+    .myskills{
+        margin-left: -1rem;
+    }
+    .skill-logos{
+        width: 43px;
+        height: 43px;
+    }
+  
+}
+@media all and (max-width:414px){
+    .skill-logos{
+        width: 43px;
+        height: 43px;
+    }
+}
+
+@media all and (max-width:392px){
+    .skill-logos{
+        width: 50px;
+        height: 50px;
+    }
+  
+}
+@media all and (max-width:392px){
+    .skill-logos{
+        width: 45px;
+        height: 45px;
+    }
+  
+}
+@media all and (max-width:282px){
+    .skill-logos{
+        width: 40px;
+        height: 40px;
+    }
+}

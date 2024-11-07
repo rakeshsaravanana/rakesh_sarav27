@@ -1,0 +1,182 @@
+/* background colors */
+:root{
+    --white:#ffffff;
+    --grey:#ffffff66;
+    --yellowgreen:#cccc33;
+    --black:#000000;
+}
+/* text colors */
+:root{
+    --white:#ffffff;
+    --yellowgreen:#cccc33;
+    --red:#e0284c;
+    --black:#000000;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+  
+    font-family:Bwnistagrot bd,sans-serif;
+}
+.footer{
+    background-color: var(--black);
+    height: 40vh;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer-links{
+    display: flex;
+    list-style: none;
+}
+.footlink{
+    text-decoration: none;
+    margin-right: 1rem;
+    color: var(--grey);
+   font-weight: 600;
+}
+.footlink:hover{
+    color: var(--red);
+    transition: 0.8s ease;
+   
+}
+
+
+.socialmedia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+   
+}
+.media{
+    display: flex;
+    padding:0 1rem;
+   font-size: 2rem;
+
+}
+.queries{
+    color: var(--yellowgreen);
+    font-weight:400;
+    font-family: cursive;
+}
+
+.socialmedia .queries{
+    display: block;
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+.instagram{
+    color: white;
+    font-size: 1.5rem;
+}
+.gmail{
+    color: white;
+    font-size: 1.5rem;
+    display: inline-block;
+    
+}
+
+.instagram:hover{
+    color: purple;
+    transition: 0.5s;
+
+}
+.gmail:hover{
+    color: var(--red);
+    transition: 0.5s;
+}
+
+
+.emailid{
+    color: var(--grey);
+    font-size: 1rem;
+    text-decoration: none;
+    list-style: none;
+   
+}
+.credits{
+    background-color: var(--black);
+    display:block;
+    justify-content: center;
+    align-items: center;
+    color: var(--grey);
+    font-weight: 600;
+}
+
+#copyright{
+   
+    text-align: center;
+    font-size: 0.8rem;
+    color: var(--grey);
+    font-size: 1rem;
+}
+#developed{
+    text-align: center;
+    font-size: 0.8rem;
+    padding-bottom: 10px;
+    color: var(--grey);
+    font-size: 1rem;
+}
+@media all and (max-width:1026px){
+    .footer{
+        height: 30vh;
+    }
+}
+@media all and (min-width:910px){
+    .footer{
+        height: 20vh;
+    }
+}
+@media all and (max-width:820px){
+    .footer-links{
+        display: block;
+        
+    }
+    
+}
+@media all and (max-width:435px){
+    .socialmedia{
+        margin: 1rem;
+    }
+    /* .gmail{
+        display: none;
+    } */
+    .footer-links{
+       margin-top: 1rem;
+       display: flex;
+    }
+
+}
+@media all and (max-width:377px){
+    .footer{
+        height: 35vh;
+    }
+    .footer-links{
+        display: flex;
+    }
+   
+}
+@media all and (max-width:282px){
+    .footer{
+        height: 20vh;
+    }
+    .footlink{
+        font-size: 0.7rem;
+    }
+    .socialmedia{
+        display: none;
+       
+    }
+    
+   
+}
